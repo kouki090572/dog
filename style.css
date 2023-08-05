@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+body{
+  margin: 0;
+}
+
+header{
+  justify-content: space-between;
+  display: flex;
+ padding: 16px;
+  align-items: center;
+}
+
+/*.cat{
+  display: none;
+}*/
+
+img{
+  vertical-align: bottom;
+}
+
+h1{
+  margin: 0;
+}
+
+.btn{
+  background-color: green;
+  width: 130px;
+  height:40px;
+  color: white;
+  border-radius: 15%;
+  text-align: center;
+  padding: 8px 0 0;
+  text-decoration: none;
+}
+h2{
+  margin:0px;
+  font-weight: normal;
+}
+
+p{
+  margin-bottom: 64px;
+}
+
+.hero{
+  background-image: url(bg.png);
+  background: skyblue;
+text-align: center; 
+padding-top: 64px;
+/*width: 500px;*
+/*height: 500px;*/
+}
+
+.hero img {
+  margin-top: 64px;
+}
+
+
+
+section .btn {
+background-color: green;
+margin-top: 64px;
+border-radius: 15%;
+padding: 15px;
+}
+
+main h2 {
+  padding-top: 64px;
+  font-weight: normal;
+  text-align: center;
+}
+
+main .img{
+  margin-bottom: 64px;
+}
+
+main div{
+  margin-top: 64px;
+  padding:0px 96px 0px;
+}
+
+main h3{
+  padding: 0 32px 0;
+}
+
+main p{
+  padding: 0 32px 0;
+}
+
+footer{
+  background-color: black;
+  height: 100px;
+  text-align: center;
+  color: white;
+  padding: 64px;
+}
+
+@media (max-width: 600px){
+  .cat{
+    display: none;
+  }
+}
+
+@media(min-width:600px){
+  .dog{
+   display: none;
+ }
+ .hero div{
+  flex: 1;
+}
+.hero{
+  display: flex;
+}
+
+.y{
+  display: flex;
+  gap: 32px;
+}
+
+.pic{
+  width: 32px;
+}
+
+.bum{
+  width: 32px;
+}
+.y:nth-child(odd){
+flex-direction: row-reverse;
+}
+}
